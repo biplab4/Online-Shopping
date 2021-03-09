@@ -1,0 +1,71 @@
+a{
+	font-weight: bold;
+	text-decoration:  none;
+	color: black;
+}
+
+a:hover{
+	font-weight: bold;
+	color: solid black;
+	text-decoration: underline;
+}
+
+/*#banner {*/
+	/*background-image: url(banner.jpg);
+	background-color: tomato;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 400px;
+	float: center;*/
+}
+
+#nav{
+	text-align: center;
+	font-size: 25px;
+	color: red;
+	border: 2px 2px black;
+}
+
+#products{
+	width: 100%;
+	text-align: center;
+	color: blue;
+}
+
+#pro1{
+	width: 33.33%;
+	float: left;
+}
+
+#pro2{
+	width: 33.33%;
+	float: left;
+}
+
+#pro3{
+	width: 33.33%;
+	float: left;
+}
+
+#buy{
+	visibility: hidden;
+	width: 120px;
+  	background-color: black;
+  	color: #fff;
+  	text-align: center;
+  	border-radius: 6px;
+  	padding: 5px 0;
+
+}
+
+#pro1:hover #buy{
+	visibility: visible;
+}
+
+#pro2:hover #buy{
+	visibility: visible;
+}
+
+#pro3:hover #buy{
+	visibility: visible;
+}

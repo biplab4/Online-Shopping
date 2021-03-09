@@ -1,0 +1,24 @@
+body{
+	padding: 0;
+	margin: 0;
+	top: 50%;
+	position: relative;
+    background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	opacity: 0.8;
+	background-size: cover;
+}
+.banner{
+	text-align:center;
+	font-family: sans-serif;
+}
+form{
+	height: 170px;
+	padding right: 80px;
+    margin-left: 790px;
+	margin-right: 100px;
+	margin-bottom: 400px;
+    border-radius: 20px;
+    position: relative;
+}
